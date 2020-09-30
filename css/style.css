@@ -1,0 +1,309 @@
+.profile_img{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+}
+
+ .navbar {    
+   background: black;  
+   font-weight: 700;   
+   border: none;
+   font-family: "Roboto Mono",monospace;
+ }
+ .navbar .navbar-brand {
+   color: white;    
+ }
+ .navbar .navbar-brand:hover{
+   color: white;
+ }  
+
+ .navbar .navbar-nav li a {
+   color: white;
+ }
+ .navbar .navbar-nav li a:hover {
+   color: gray;
+ }
+ 
+ .navbar-toggle{
+   color: #fff;
+   border: 2px solid #fff;
+ }   
+
+ header {
+   background: gray;
+   background:url("../images/background.jpg") no-repeat;
+   color: white;
+   height:620px;
+   
+ }   
+ header img {    
+   display: block;
+   margin: 0 auto 20px;
+ }   
+ header .container {   
+   padding-top: 100px;   
+   padding-bottom: 100px;    
+ }   
+ header .intro-text .name {
+   font-size: 3.75em;
+ }   
+ header .intro-text .skills {
+   font-size: 1.75em;
+ }
+     
+ header .portrait {
+   height: 200px;
+ }   
+   
+ section {   
+   padding: 100px 0;   
+ }   
+ section h2 {
+   margin: 0;    
+   font-size: 3em;   
+ }   
+ section.about {   
+   background: gray;    
+   color: black;   
+ }  
+     
+ section.about .btn-outline {    
+     color: black;    
+     font-size: 20px;    
+     border: 2px solid black;   
+     background: 0 0;    
+     transition: all .3s ease-in-out;    
+     margin-top: 15px;   
+ }   
+ 
+ 
+ #Projects .Projects-item  {   
+   display: block;
+   position: relative;   
+   max-width: 400px;   
+   margin: 0 0 15px;   
+ }   
+ #Projects .Projects-item img {    
+   border-radius: 50%;
+   width 85%;   
+   height: 200px;
+   margin-left: auto;
+   margin-right: auto;   
+ }
+ 
+ 
+ #Myskills
+ {
+	background-image: url("Skills.jpg");
+ }
+ 
+ #Myskills .container h2
+ {
+	 color: white;
+	 font-family: domine,sans-serif;
+ }
+ 
+ .skillbar {
+    position: relative;
+    display: inline-block;
+    margin: 1.5em 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.72);
+    height: 22px;
+	border-radius: 3px;
+ }
+ 
+ .skillbar-title
+ {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 117px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: .9em;
+    color: #ffffff;
+	border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+	padding: 0 20px;
+    height: 100%;
+    line-height: 22px;
+ }
+
+ .java
+ {
+	height: 100%;
+	text-align: right;
+	top:0;
+	width:10px;
+	padding: 1px;
+	color: white;
+ }
+
+ .javascript
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+ }
+ 
+  .python
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+ }
+
+   .android
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+ }
+ 
+  .c
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+
+ }
+ 
+  .webdev
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+ }
+ 
+   .gamedev
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+ }
+ 
+    .ethical
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+
+ }
+ 
+ 
+     .others
+ {
+	height: 100%;
+	text-align: right;
+	top: 0;
+	width:10px;
+	padding: 1px;
+	color: white;
+
+ }
+ 
+ 
+ 
+ #about
+ {
+	background-color: white;
+	color: black;
+ }
+ 
+ #about .container h3
+ {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+ }
+  #about .container p
+ {
+	letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+	padding-top: 1em;
+ }
+
+
+
+ #contact
+ {
+	background-color: grey;
+ }
+ #contact .container h2
+ {
+	 color: white;
+ }
+ 
+.copy-right {
+	text-align: center;
+	background-color: grey;
+	padding: 7px 0px;
+}
+.copy-right p {
+	font-family: 'Ropa Sans', sans-serif;
+	font-size: 1em;
+	color: #fff;
+	line-height: 1.5em;
+	margin-top: 7px;
+	
+}
+ 
+ .btn-outline {    
+     color: #fff;   
+     font-size: 20px;    
+     border: 2px solid #fff;    
+     background: 0 0;    
+     transition: all .3s ease-in-out;    
+     margin-top: 15px;   
+ }
+ 
+  .btn-outlinee {    
+     color: black;   
+     font-size: 20px;    
+     border: 2px solid black;    
+     background: 0 0;    
+     transition: all .3s ease-in-out;    
+     margin-top: 15px;   
+ }
+
+  .btn-outlinee:hover {    
+	background-color: #6A9DED;
+ }
+ 
+     
+ .btn-social {   
+   display: inline-block;    
+   height: 50px;   
+   width: 50px;    
+   border: 2px solid white;    
+   border-radius: 100%;    
+   text-align: center;   
+   font-size: 20px;      
+ }
+
+ .btn-social i {
+    line-height: 45px;
+ }
