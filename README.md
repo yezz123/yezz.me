@@ -12,5 +12,5 @@
 * Create another about me page that your site links to
 * Add scrollspy to your project
 * Create a contact form
-*  Update the styling for the portfolio
+* Update the styling for the portfolio
 * Link your resume to your portfolio
