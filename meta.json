@@ -7,7 +7,7 @@
 	"repo": "yezz123/yezz123.github.io",
 	"categories": ["Website", "Open Source", "Github", "gh-pages"], 
 	"languages": ["HTML", "CSS", "Javascript", "Sass"],
-	"operating_systems": ["Linux", "Windows", "Unix", "Mac"],  
+	"operating_systems": ["Linux", "Windows","Mac"],  
 	"poc": "Yasser Tahiri", 
 	"poc_mbox": " yasserth19@gmail.com", 
 	"license": "MIT License", 
