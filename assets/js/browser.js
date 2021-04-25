@@ -12,7 +12,13 @@ var browser = (function () {
             e._canUse || (e._canUse = document.createElement("div"));
             var o = e._canUse.style,
                 r = n.charAt(0).toUpperCase() + n.slice(1);
-            return n in o || "Moz" + r in o || "Webkit" + r in o || "O" + r in o || "ms" + r in o;
+            return (
+                n in o ||
+                "Moz" + r in o ||
+                "Webkit" + r in o ||
+                "O" + r in o ||
+                "ms" + r in o
+            );
         },
         init: function () {
             var n,
@@ -84,16 +90,33 @@ var browser = (function () {
                 i++
             )
                 if (t.match(r[i][1])) {
-                    (n = r[i][0]), (o = parseFloat(r[i][2] ? r[i][2](RegExp.$1) : RegExp.$1));
+                    (n = r[i][0]),
+                        (o = parseFloat(
+                            r[i][2] ? r[i][2](RegExp.$1) : RegExp.$1
+                        ));
                     break;
                 }
-            (e.os = n), (e.osVersion = o), (e.touch = "wp" == e.os ? navigator.msMaxTouchPoints > 0 : !!("ontouchstart" in window)), (e.mobile = "wp" == e.os || "android" == e.os || "ios" == e.os || "bb" == e.os);
+            (e.os = n),
+                (e.osVersion = o),
+                (e.touch =
+                    "wp" == e.os
+                        ? navigator.msMaxTouchPoints > 0
+                        : !!("ontouchstart" in window)),
+                (e.mobile =
+                    "wp" == e.os ||
+                    "android" == e.os ||
+                    "ios" == e.os ||
+                    "bb" == e.os);
         },
     };
     return e.init(), e;
 })();
 !(function (e, n) {
-    "function" == typeof define && define.amd ? define([], n) : "object" == typeof exports ? (module.exports = n()) : (e.browser = n());
+    "function" == typeof define && define.amd
+        ? define([], n)
+        : "object" == typeof exports
+        ? (module.exports = n())
+        : (e.browser = n());
 })(this, function () {
     return browser;
 });

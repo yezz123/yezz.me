@@ -8,7 +8,11 @@ var breakpoints = (function () {
         media: {},
         events: [],
         init: function (e) {
-            (t.list = e), window.addEventListener("resize", t.poll), window.addEventListener("orientationchange", t.poll), window.addEventListener("load", t.poll), window.addEventListener("fullscreenchange", t.poll);
+            (t.list = e),
+                window.addEventListener("resize", t.poll),
+                window.addEventListener("orientationchange", t.poll),
+                window.addEventListener("load", t.poll),
+                window.addEventListener("fullscreenchange", t.poll);
         },
         active: function (e) {
             var n, a, s, i, r, d, c;
@@ -28,7 +32,11 @@ var breakpoints = (function () {
                     n && n in t.list)
                 )
                     if (((i = t.list[n]), Array.isArray(i))) {
-                        if (((r = parseInt(i[0])), (d = parseInt(i[1])), isNaN(r))) {
+                        if (
+                            ((r = parseInt(i[0])),
+                            (d = parseInt(i[1])),
+                            isNaN(r))
+                        ) {
                             if (isNaN(d)) return;
                             c = i[1].substr(String(d).length);
                         } else c = i[0].substr(String(r).length);
@@ -41,13 +49,21 @@ var breakpoints = (function () {
                                     s = "screen and (max-width: " + d + c + ")";
                                     break;
                                 case "gt":
-                                    s = "screen and (min-width: " + (d + 1) + c + ")";
+                                    s =
+                                        "screen and (min-width: " +
+                                        (d + 1) +
+                                        c +
+                                        ")";
                                     break;
                                 case "lt":
                                     s = "screen and (max-width: -1px)";
                                     break;
                                 case "not":
-                                    s = "screen and (min-width: " + (d + 1) + c + ")";
+                                    s =
+                                        "screen and (min-width: " +
+                                        (d + 1) +
+                                        c +
+                                        ")";
                                     break;
                                 default:
                                     s = "screen and (max-width: " + d + c + ")";
@@ -64,10 +80,18 @@ var breakpoints = (function () {
                                     s = "screen and (max-width: -1px)";
                                     break;
                                 case "lt":
-                                    s = "screen and (max-width: " + (r - 1) + c + ")";
+                                    s =
+                                        "screen and (max-width: " +
+                                        (r - 1) +
+                                        c +
+                                        ")";
                                     break;
                                 case "not":
-                                    s = "screen and (max-width: " + (r - 1) + c + ")";
+                                    s =
+                                        "screen and (max-width: " +
+                                        (r - 1) +
+                                        c +
+                                        ")";
                                     break;
                                 default:
                                     s = "screen and (min-width: " + r + c + ")";
@@ -81,16 +105,38 @@ var breakpoints = (function () {
                                     s = "screen and (max-width: " + d + c + ")";
                                     break;
                                 case "gt":
-                                    s = "screen and (min-width: " + (d + 1) + c + ")";
+                                    s =
+                                        "screen and (min-width: " +
+                                        (d + 1) +
+                                        c +
+                                        ")";
                                     break;
                                 case "lt":
-                                    s = "screen and (max-width: " + (r - 1) + c + ")";
+                                    s =
+                                        "screen and (max-width: " +
+                                        (r - 1) +
+                                        c +
+                                        ")";
                                     break;
                                 case "not":
-                                    s = "screen and (max-width: " + (r - 1) + c + "), screen and (min-width: " + (d + 1) + c + ")";
+                                    s =
+                                        "screen and (max-width: " +
+                                        (r - 1) +
+                                        c +
+                                        "), screen and (min-width: " +
+                                        (d + 1) +
+                                        c +
+                                        ")";
                                     break;
                                 default:
-                                    s = "screen and (min-width: " + r + c + ") and (max-width: " + d + c + ")";
+                                    s =
+                                        "screen and (min-width: " +
+                                        r +
+                                        c +
+                                        ") and (max-width: " +
+                                        d +
+                                        c +
+                                        ")";
                             }
                     } else s = "(" == i.charAt(0) ? "screen and " + i : i;
                 t.media[e] = !!s && s;
@@ -98,11 +144,16 @@ var breakpoints = (function () {
             return t.media[e] !== !1 && window.matchMedia(t.media[e]).matches;
         },
         on: function (e, n) {
-            t.events.push({ query: e, handler: n, state: !1 }), t.active(e) && n();
+            t.events.push({ query: e, handler: n, state: !1 }),
+                t.active(e) && n();
         },
         poll: function () {
             var e, n;
-            for (e = 0; e < t.events.length; e++) (n = t.events[e]), t.active(n.query) ? n.state || ((n.state = !0), n.handler()) : n.state && (n.state = !1);
+            for (e = 0; e < t.events.length; e++)
+                (n = t.events[e]),
+                    t.active(n.query)
+                        ? n.state || ((n.state = !0), n.handler())
+                        : n.state && (n.state = !1);
         },
     };
     return (
@@ -117,7 +168,11 @@ var breakpoints = (function () {
     );
 })();
 !(function (e, t) {
-    "function" == typeof define && define.amd ? define([], t) : "object" == typeof exports ? (module.exports = t()) : (e.breakpoints = t());
+    "function" == typeof define && define.amd
+        ? define([], t)
+        : "object" == typeof exports
+        ? (module.exports = t())
+        : (e.breakpoints = t());
 })(this, function () {
     return breakpoints;
 });

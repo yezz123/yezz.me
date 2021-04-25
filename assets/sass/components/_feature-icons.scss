@@ -1,16 +1,13 @@
 /* Feature Icons */
 
-	
+@include breakpoint("<=small") {
+    margin: 0 0 (_size(element-margin) * 1.5) 0;
 
-		@include breakpoint('<=small') {
-			margin: 0 0 (_size(element-margin) * 1.5) 0;
+    li {
+        width: 100%;
 
-			li {
-				width: 100%;
-
-				&:nth-child(2) {
-					margin-top: (_size(element-margin) * 1);
-				}
-			}
-		}
-	}
+        &:nth-child(2) {
+            margin-top: (_size(element-margin) * 1);
+        }
+    }
+}

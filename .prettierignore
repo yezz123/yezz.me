@@ -1,0 +1,54 @@
+# Ignore artifacts:
+build
+coverage
+
+
+# JS
+matrix(
+  1, 0, 0,
+  0, 1, 0,
+  0, 0, 1
+)
+
+// prettier-ignore
+matrix(
+  1, 0, 0,
+  0, 1, 0,
+  0, 0, 1
+)
+
+matrix(1, 0, 0, 0, 1, 0, 0, 0, 1);
+
+// prettier-ignore
+matrix(
+  1, 0, 0,
+  0, 1, 0,
+  0, 0, 1
+)
+
+#HTML
+<!-- prettier-ignore -->
+<div         class="x"       >hello world</div            >
+
+<!-- prettier-ignore-attribute -->
+<div
+  (mousedown)="       onStart    (    )         "
+  (mouseup)="         onEnd      (    )         "
+></div>
+
+<!-- prettier-ignore-attribute (mouseup) -->
+<div
+  (mousedown)="onStart()"
+  (mouseup)="         onEnd      (    )         "
+></div>
+
+#CSS
+/* prettier-ignore */
+.my    ugly rule
+{
+
+}
+
+#Markdown
+<!-- prettier-ignore -->
+Do   not    format   this
