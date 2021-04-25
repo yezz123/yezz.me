@@ -4,9 +4,13 @@
 <head>
     <title>Yasser Tahiri</title>
     <meta charset="utf-8" />
+    <meta name="type" content="website" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="Official Website" />
-    <meta name="keywords" content="Yasser Tahiri" />
+    <meta name="description" content="Yasser Tahiri's Official Portfolio" />
+    <meta name="keywords"
+        content="I'm more Passionate about new Technologies, new Ideas and ways of Thinking. A self taught & an enthusiast programmer , trying to create magic with 0's and 1's ." />
+    <meta name="url" content="https://www.yezz.me" />
+    <meta name="image" content="https://raw.githubusercontent.com/yezz123/yezz123/master/img/img.gif" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="shortcut icon" type="image/icon" href="assets/css/Ico/icon.png" />
 </head>
@@ -22,7 +26,7 @@
                 </ul>
             </header>
             <div class="content">
-                <span class="image fill" data-position="center"><img src="images/Wallpaper1.jpg" alt="" /></span>
+                <span class="image fill" data-position="center"><img src="images/Wallpaper1.jpg" alt="cover" /></span>
             </div>
         </section>
         <section id="About_me">
@@ -31,7 +35,7 @@
             </header>
             <div class="content">
                 <p>It's my pleasure to introduce my self..well, My name is <b>Yasser Tahiri.</b><sub><a
-                            href="https://bit.ly/3w1tSjB">Resume</a></sub></p>
+                            href="https://bit.ly/3vuH0gr">Resume</a></sub></p>
                 <p>I'm more Passionate about new Technologies, new Ideas and ways of Thinking. A self taught & an
                     enthusiast programmer , trying to create magic with 0's and 1's .</p>
                 <p>One of those book that made me love that world <a href="https://amzn.to/3cl2WDS">Social Engineering:
@@ -80,7 +84,7 @@
                         <h3>Contribution activity</h3>
                         <p><a href="https://bit.ly/3wgaeAN">GDGSNF</a> an organization that create some open source
                             based on web development Frontend/Backend also we do some security issues. </p>
-                        <p><a href="https://bit.ly/3fDITm8">BnademOverFlow</a> A great community with genius people who
+                        <p><a href="https://bit.ly/32IfuiP">BnademOverFlow</a> A great community with genius people who
                             love to be beside the computer and understand how its works, we are into a new challenges
                             like creating Twil-Platform where we can write articles, make videos and live streams and
                             make them accessible to the public.</p>
@@ -124,7 +128,7 @@
                 <h5>Specialized Institute of Applied Technology Management Bab Tizimi</h5>
                 <p>• The "Skilled Technician in Software Development" is a support professional development and
                     maintenance of computer applications.</p>
-                <h5>bachelor's degree in physical and chemical sciences, Moulay Ismail High School</h5>
+                <h5>high school degree in physical and chemical sciences, Moulay Ismail High School</h5>
                 <p>• During 3 years i study in high school and that help me to learn more and more & give me the correct
                     way to build my career as an IT Developer (2016-2019).</p>
             </div>
@@ -136,8 +140,8 @@
             </header>
             <div class="content">
                 <p><strong>Contact Me:</strong></p>
-                <form>
-                    <div class="fields">
+                <form onsubmit="contact()">
+                    <div class=" fields">
                         <div class="field half">
                             <input type="text" name="name" id="name" placeholder="Name" />
                         </div>
@@ -149,8 +153,9 @@
                         </div>
                     </div>
                     <ul class="actions">
-                        <li><a href="mailto:yasserth19@protonmail.com"><input type="submit" value="Send Message"
-                                    class="button primary" /></a></li>
+                        <li><button type="button" class="button primary" onclick="contact()">fucking button
+                            </button>
+                        </li>
                     </ul>
                 </form>
             </div>
@@ -179,12 +184,14 @@
         <div class="copyright">&copy;2021. All rights reserved.<a href="https://github.com/yezz123">Yezz123</a>.</div>
     </div>
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/browser.js"></script>
     <script src="assets/js/breakpoints.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/contact.js"></script>
 </body>
 
 </html>
