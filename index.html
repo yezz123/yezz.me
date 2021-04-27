@@ -87,12 +87,7 @@
             <!-- Section -->
             <section id="Tech&lang">
                 <header>
-                    <h2>
-                        Language & Technology<img
-                            src="images/GIF/Cp.gif"
-                            width="30px"
-                        />
-                    </h2>
+                    <h2>Language & Technology</h2>
                 </header>
                 <div class="content">
                     <p>
@@ -244,12 +239,7 @@
             <!-- Section -->
             <section id="Exp&Edu">
                 <header>
-                    <h2>
-                        Education<img
-                            src="images/GIF/Rocket.gif"
-                            width="30px"
-                        />
-                    </h2>
+                    <h2>Education</h2>
                 </header>
                 <div class="content">
                     <h3>Education:</h3>
@@ -291,6 +281,7 @@
                                     name="name"
                                     id="name"
                                     placeholder="Name"
+                                    required
                                 />
                             </div>
                             <div class="field half">
@@ -299,6 +290,7 @@
                                     name="email"
                                     id="email"
                                     placeholder="Email"
+                                    required
                                 />
                             </div>
                             <div class="field">
@@ -307,18 +299,21 @@
                                     id="message"
                                     placeholder="Message"
                                     rows="7"
+                                    required
                                 ></textarea>
                             </div>
                         </div>
                         <ul class="actions">
                             <li>
-                                <button
-                                    type="button"
-                                    class="button primary"
-                                    onclick="contact()"
+                                <a href="assets/html/EmailSent.html"
+                                    ><button
+                                        type="button"
+                                        class="button primary"
+                                        onclick="contact()"
+                                    >
+                                        Send
+                                    </button></a
                                 >
-                                    Send
-                                </button>
                             </li>
                         </ul>
                     </form>
