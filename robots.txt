@@ -1,14 +1,2 @@
-{
-    "title": "yezz123.me",
-    "visibility": "public",
-    "type": "GIT",
-    "description": "Github yezz123 official website.",
-    "url": "https://yezz.me",
-    "categories": ["Website"],
-    "languages": ["HTML", "CSS", "Javascript", "Sass"],
-    "operating_systems": ["Linux", "Windows", "Mac"],
-    "poc": "Yasser Tahiri",
-    "poc_mbox": " yasserth19@protonmail.com",
-    "license": "MIT License",
-    "software_types": ["website", "catalog"]
-}
+User-agent: *
+Allow: /
