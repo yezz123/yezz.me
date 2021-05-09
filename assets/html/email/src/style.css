@@ -1,0 +1,127 @@
+:root {
+    --rotate: -26deg;
+
+    /* to make it responsive */
+    --unit: 1vmin;
+    --zoom: 160;
+    --workspace-min: 768; /* device screen height = 768px */
+    --upx: calc(
+        var(--zoom) * (var(--unit) / var(--workspace-min))
+    ); /* upx = units per pixel */
+
+    /* DNA Helix loop */
+    --animation-speed: 1;
+    --helix-duration: 0.5s;
+    --helix-iteration-factor: 0.05s;
+
+    /* DNA model */
+    --dna-max-height: calc(140 * var(--upx));
+    --dna-nitrogenous-base-width: calc(6 * var(--upx));
+    --dna-nitrogenous-base-margin: calc(8 * var(--upx));
+    --dna-sugar-diameter: calc(15 * var(--upx));
+    --dna-sugar-border-size: calc(6 * var(--upx));
+
+    /* colors */
+    --color-background: #151515;
+    --color-sugar: #f2f1d5;
+    --color-A: #ffba36;
+    --color-T: #26f826;
+    --color-C: #439ad9;
+    --color-G: #e96451;
+}
+
+/* rotate the dna container for smart mobile devices */
+@media (orientation: portrait) {
+    :root {
+        --rotate: -58deg;
+    }
+}
+
+/* to make things look pretty */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+body {
+    background: var(--color-background);
+    overflow: auto;
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.4) rgba(0, 0, 0, 0);
+}
+
+/* align the DNA to middle */
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(var(--rotate));
+    transform-origin: 50% 50%;
+}
+
+/* DNA is a flex container with n-double helix */
+.dna {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: var(--dna-max-height);
+}
+
+/* helix (nitrogenous base) */
+.dna > div {
+    font-size: 0;
+    position: relative;
+    width: var(--dna-nitrogenous-base-width);
+    height: 0;
+    background: linear-gradient(0deg, var(--color-G) 50%, var(--color-C) 50%);
+    display: inline-block;
+    margin: 0 var(--dna-nitrogenous-base-margin);
+    animation: double-helix ease
+        calc(var(--helix-duration) / var(--animation-speed))
+        calc(
+            (var(--i) * var(--helix-iteration-factor)) / var(--animation-speed)
+        )
+        alternate infinite;
+}
+
+.dna > div:nth-child(2n) {
+    background: linear-gradient(0deg, var(--color-A) 50%, var(--color-T) 50%);
+}
+
+@keyframes double-helix {
+    to {
+        height: var(--dna-max-height);
+    }
+}
+
+/* sugar */
+.dna > div::before,
+.dna > div::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: var(--dna-sugar-diameter);
+    height: var(--dna-sugar-diameter);
+    display: block;
+    border-radius: 50%;
+    background: var(--color-sugar);
+    border: var(--dna-sugar-border-size) solid var(--color-background);
+    box-sizing: content-box;
+}
+
+.dna > div::before {
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.dna > div::after {
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
