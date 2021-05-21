@@ -13,7 +13,7 @@ Before you start, install the dependencies. Clone the repository and navigate to
 
 ```
 git clone https://github.com/yezz123/yezz123.github.io.git
-cd BnademOverflow
+cd yezz123.github.io
 ```
 
 ## Running the website using a container
