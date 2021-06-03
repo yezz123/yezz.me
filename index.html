@@ -281,7 +281,11 @@
                 </header>
                 <div class="content">
                     <p><strong>Contact Me:</strong></p>
-                    <form action="mailto:yasserth19@protonmail.com">
+                    <form
+                        action="mailto:yasserth19@protonmail.com"
+                        method="POST"
+                        enctype="multipart/form-data"
+                    >
                         <div class="fields">
                             <div class="field half">
                                 <input
@@ -313,13 +317,8 @@
                         </div>
                         <ul class="actions">
                             <li>
-                                
-                                    <button
-                                        type="button"
-                                        class="button primary"
-                                    >
-                                        Send
-                                    </button>
+                                <input type="submit" value="Send" />
+                                <input type="reset" value="Reset" />
                             </li>
                         </ul>
                     </form>
