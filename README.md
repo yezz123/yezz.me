@@ -6,7 +6,6 @@ You can run the website locally, or you can run it in a container runtime. We st
 
 To use this repository, you need the following installed locally:
 
-- [npm](https://www.npmjs.com/)
 - A container runtime, like [Docker](https://www.docker.com/).
 
 Before you start, install the dependencies. Clone the repository and navigate to the directory:
