@@ -1,11 +1,7 @@
 {
-    "name": "yezz123.github.io",
+    "name": "yezz123.me",
     "version": "1.0.0",
-    "description": "Official packages for my website",
-    "main": "main.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
+    "description": "My personal website",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/yezz123/yezz123.github.io.git"
@@ -20,7 +16,4 @@
         "url": "https://github.com/yezz123/yezz123.github.io/issues"
     },
     "homepage": "https://github.com/yezz123/yezz123.github.io#readme",
-    "devDependencies": {
-        "prettier": "2.2.1"
-    }
 }

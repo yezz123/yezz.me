@@ -1,15 +1,32 @@
 {
-    "title": "yezz123.github.io",
+    "title": "yezz123.me",
     "visibility": "public",
     "type": "GIT",
     "description": "Github yezz123 official website.",
     "url": "https://github.com/yezz123/yezz123.github.io",
     "repo": "yezz123/yezz123.github.io",
-    "categories": ["Website", "Open Source", "Github", "gh-pages"],
-    "languages": ["HTML", "CSS", "Javascript", "Sass"],
-    "operating_systems": ["Linux", "Windows", "Mac"],
+    "categories": [
+        "Website",
+        "Open Source",
+        "Github",
+        "gh-pages"
+    ],
+    "languages": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Sass"
+    ],
+    "operating_systems": [
+        "Linux",
+        "Windows",
+        "Mac"
+    ],
     "poc": "Yasser Tahiri",
     "poc_mbox": " yasserth19@protonmail.com",
     "license": "MIT License",
-    "software_types": ["website", "catalog"]
+    "software_types": [
+        "website",
+        "catalog"
+    ]
 }
