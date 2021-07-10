@@ -25,8 +25,3 @@ make container-serve
 ```
 
 Open up your browser to http://localhost:1313 to view the website. As you make changes to the source files, the website updates and forces a browser refresh.
-
-## To Do
-
-- [X] Create my own blog to share my last updates on repositories.
-- [X] Create Articles & WriteUps.
