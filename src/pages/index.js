@@ -1,5 +1,4 @@
 import React from 'react'
-import pic01 from '../GIF/01.gif'
 import Layout from '../components/layout'
 
 {
