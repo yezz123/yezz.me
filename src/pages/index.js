@@ -108,7 +108,7 @@ const IndexPage = () => (
                     <li className="icon solid fa-language">Django</li>
                     <li className="icon solid fa-user-ninja">Flask</li>
                     <li className="icon solid fa-bolt">FastAPI</li>
-                    <li className="icon solid fa-paper-plane">NodeJS</li>
+                    <li className="icon solid fa-chess-knight">NodeJS</li>
                 </ul>
                 <h3>Database</h3>
                 <ul className="feature-icons">
@@ -151,11 +151,12 @@ const IndexPage = () => (
                             >
                                 BnademOverFlow
                             </a>
-                            A great community with genius people who love to be
-                            beside the computer and understand how it works, we
-                            are into a new challenge like creating Twil-Platform
-                            where we can write articles, make videos and live
-                            streams and make them accessible to the public.
+                            &nbsp; A great community with genius people who love
+                            to be beside the computer and understand how it
+                            works, we are into a new challenge like creating
+                            Twil-Platform where we can write articles, make
+                            videos and live streams and make them accessible to
+                            the public.
                         </p>
                     </header>
                     <div class="content">
@@ -194,6 +195,16 @@ const IndexPage = () => (
                                 &nbsp; is a web application developed in
                                 Python-Flask-SQLite for testing your skills as a
                                 Hacker, Coder and Warrior. 🚀
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/yezz123/SoIG"
+                                    target="_blank"
+                                >
+                                    SoIG
+                                </a>
+                                &nbsp; OSINT Tool gets a range of information
+                                from an Instagram account. 📣
                             </li>
                             <li>
                                 <a
