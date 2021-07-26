@@ -1,10 +1,6 @@
 import React from 'react'
-import pic01 from '../assets/img/pic01.jpg'
-import hi from '../assets/img/GIF/hi.gif'
-import love from '../assets/img/GIF/love.gif'
-import star from '../assets/img/GIF/star.gif'
+import pic01 from '../GIF/01.gif'
 import Layout from '../components/layout'
-
 
 {
     /*Section Intro*/
@@ -30,9 +26,7 @@ const IndexPage = () => (
         {/*Section About Me*/}
         <section id="about">
             <header>
-                <h2>
-                    About Me <img src={hi} width="30px" />
-                </h2>
+                <h2>About Me</h2>
             </header>
             <div className="content">
                 <p>
@@ -136,9 +130,7 @@ const IndexPage = () => (
         {/*Project*/}
         <section>
             <header>
-                <h2>
-                    Project <img src={love} width="30px" />
-                </h2>
+                <h2>Project</h2>
             </header>
             <div className="content">
                 <section id="activity">
@@ -177,9 +169,9 @@ const IndexPage = () => (
                                     Phisher
                                 </a>
                                 &nbsp; Tool designed for performing various
-                                social engineering attacks.
-                                For phishing, set allows for sending phishing
-                                Websites to get Info. 🏆
+                                social engineering attacks. For phishing, set
+                                allows for sending phishing Websites to get
+                                Info. 🏆
                             </li>
                             <li>
                                 <a
@@ -321,7 +313,7 @@ const IndexPage = () => (
 
         <section>
             <header>
-                <h2>Get in touch <img src={star} width="30px"/></h2>
+                <h2>Get in touch</h2>
             </header>
             <div className="content">
                 <p>
