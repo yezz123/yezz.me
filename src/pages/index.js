@@ -1,4 +1,5 @@
 import React from 'react'
+import pic01 from '../assets/img/pic01.jpg'
 import Layout from '../components/layout'
 
 {
