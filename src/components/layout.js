@@ -43,7 +43,7 @@ const Layout = ({ children }) => (
                         {
                             name: 'og:image',
                             content:
-                                'https://avatars.githubusercontent.com/u/52716203?s=400&u=5b177e454d03b55a9ce8cf02d8673ec212f04190&v=4',
+                                'https://raw.githubusercontent.com/yezz123/yezz123.github.io/master/src/assets/img/card.png',
                         },
                         { name: 'og:type', content: 'website' },
                         {
@@ -64,7 +64,7 @@ const Layout = ({ children }) => (
                         {
                             name: 'twitter:image',
                             content:
-                                'https://avatars.githubusercontent.com/u/52716203?s=400&u=5b177e454d03b55a9ce8cf02d8673ec212f04190&v=4',
+                                'https://raw.githubusercontent.com/yezz123/yezz123.github.io/master/src/assets/img/card.png',
                         },
                         { name: 'twitter:card', content: 'summary' },
                         { name: 'twitter:site', content: '@THyasser1' },
