@@ -1,10 +1,13 @@
-export const onServiceWorkerUpdateReady = () => {
-    const answer = window.confirm(
-        `This application has been updated. ` +
-            `Reload to display the latest version?`
-    )
+import "./src/utils/global.scss"
+require("typeface-montserrat")
 
-    if (answer === true) {
-        window.location.reload()
-    }
+export const onServiceWorkerUpdateReady = () => {
+  const answer = window.confirm(
+    `This application has been updated. ` +
+      `Reload to display the latest version?`
+  )
+
+  if (answer === true) {
+    window.location.reload()
+  }
 }

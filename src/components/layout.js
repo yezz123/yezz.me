@@ -1,87 +1,32 @@
-import { graphql, StaticQuery } from 'gatsby'
-import PropTypes from 'prop-types'
-import React from 'react'
-import Helmet from 'react-helmet'
-import '../assets/sass/main.scss'
+import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-const Layout = ({ children }) => (
-    <StaticQuery
-        query={graphql`
-            query SiteTitleQuery {
-                site {
-                    siteMetadata {
-                        title
-                    }
-                }
-            }
-        `}
-        render={(data) => (
-            <>
-                <Helmet
-                    title={data.site.siteMetadata.title}
-                    meta={[
-                        {
-                            name: 'description',
-                            content:
-                                'experienced Backend developer and OSS Developer, mostly self-taught, and very passionate about new technologies. My strongest skills lie within Python/JavaScript, both backends.',
-                        },
-                        {
-                            name: 'keywords',
-                            content: 'ReactJS, Gatsby, yezz123',
-                        },
-                        { name: 'author', content: 'Yasser Tahiri' },
-                        {
-                            name: 'og:title',
-                            content: data.site.siteMetadata.title,
-                        },
-                        {
-                            name: 'og:description',
-                            content:
-                                'experienced Backend developer and OSS Developer, mostly self-taught, and very passionate about new technologies. My strongest skills lie within Python/JavaScript, both backends.',
-                        },
-                        { name: 'og:url', content: 'https://yezz.me/' },
-                        {
-                            name: 'og:image',
-                            content:
-                                'https://raw.githubusercontent.com/yezz123/yezz123.github.io/master/src/assets/img/card.png',
-                        },
-                        { name: 'og:type', content: 'website' },
-                        {
-                            name: 'og:site_name',
-                            content: 'Yasser Tahiri - Portfolio',
-                        },
-                        { name: 'twitter:card', content: 'summary' },
-                        { name: 'twitter:site', content: '@THyasser1' },
-                        {
-                            name: 'twitter:title',
-                            content: data.site.siteMetadata.title,
-                        },
-                        {
-                            name: 'twitter:description',
-                            content:
-                                'experienced Backend developer and OSS Developer, mostly self-taught, and very passionate about new technologies. My strongest skills lie within Python/JavaScript, both backends.',
-                        },
-                        {
-                            name: 'twitter:image',
-                            content:
-                                'https://raw.githubusercontent.com/yezz123/yezz123.github.io/master/src/assets/img/card.png',
-                        },
-                        { name: 'twitter:card', content: 'summary' },
-                        { name: 'twitter:site', content: '@THyasser1' },
-                        { name: 'twitter:creator', content: '@THyasser1' },
-                        { name: 'twitter:domain', content: 'gdgsnf.github.io' },
-                    ]}
-                >
-                    <html lang="en" />
-                </Helmet>
-                <div id="wrapper">{children}</div>
-            </>
-        )}
-    />
-)
+import Header from "./header"
+import Footer from "./footer"
+
+const Layout = ({ children }) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
+  return (
+    <>
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <main>{children}</main>
+      <Footer />
+    </>
+  )
+}
 
 Layout.propTypes = {
-    children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

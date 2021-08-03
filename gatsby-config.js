@@ -1,34 +1,50 @@
 module.exports = {
-    siteMetadata: {
-        title: 'Yasser Tahiri - Portfolio',
-        author: 'Yasser Tahiri',
-        description: 'My personal website 🚀',
-        siteUrl: 'https://yezz.me/',
-        social: {
-            twitter: 'THyasser1',
-            github: 'yezz123',
-        },
-        twitter: 'THyasser1',
-        favicon: 'src/assets/img/website-icon.png',
-
+  siteMetadata: {
+    title: `Yasser Tahiri`,
+    description: `Experienced Backend Developer, OpenSource Lover, Mostly self-taught, and very passionate about new technologies.`,
+    author: `@yezz123`,
+    siteUrl: "https://yezz.me/",
+    social: {
+      twitter: "THyasser1",
+      github: "yezz123",
     },
-    plugins: [
-        'gatsby-plugin-react-helmet',
-        {
-            resolve: `gatsby-plugin-manifest`,
-            options: {
-                name: 'Yasser Tahiri - Portfolio',
-                short_name: 'Portfolio',
-                description: 'Experienced Backend developer. I am mostly self-taught, and I am very passionate about new technologies.',
-                start_url: '/',
-                orientation: 'portrait',
-                background_color: '#663399',
-                theme_color: '#663399',
-                display: 'minimal-ui',
-                icon: 'src/assets/img/website-icon.png', // This path is relative to the root of the site.
-            },
-        },
-        'gatsby-plugin-sass',
-        'gatsby-plugin-offline'
-    ],
+    twitter: "THyasser1",
+    favicon: "src/images/favicon.png",
+  },
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Yasser Tahiri`,
+        short_name: `yezz`,
+        description: `Experienced Backend Developer, OpenSource Lover, Mostly self-taught, and very passionate about new technologies.`,
+        start_url: `/`,
+        background_color: `#082032`,
+        theme_color: `#082032`,
+        display: `minimal-ui`,
+        icon: `src/images/favicon.png`,
+      },
+    },
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`,
+      },
+    },
+    `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-offline`,
+  ],
 }

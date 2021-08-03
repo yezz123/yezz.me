@@ -1,0 +1,26 @@
+[
+  {
+    "companyname": "WhoAPI",
+    "stack": "Python Developer",
+    "year": "Jan 2021 - Present",
+    "description": "I participate in the design and development of Multiple APIs and Creating Multiple Microservices with Django, Flask."
+  },
+  {
+    "companyname": "Github",
+    "stack": "OpenSource Developer",
+    "year": "Jul 2019 - Present",
+    "description": "Github helps me in a way that I can drop public and professional repositories to all the world, help people that have the same mindset as me & code in a professional way to break those weird feelings of being unmotivated to do this."
+  },
+  {
+    "companyname": "Ontwik",
+    "stack": "APIs & Web Developer (Freelance)",
+    "year": "Feb 2021 - Present",
+    "description": "As a Backend Developer, doing some Freelance and being self-employed is a good motivation that helps me upgrade my skills and get new & more Knowledge about technologies that IT Stacks & People are close to it."
+  },
+  {
+    "companyname": "InfoMarket",
+    "stack": "Internship",
+    "year": "Apr 2021 - May 2021",
+    "description": "My role as a trainee is to help InfoMarket creating a website that generates a Passbook in a PDF template with NodeJS and MySQL for the Back-end side & Frontend with Vanilla JS."
+  }
+]
