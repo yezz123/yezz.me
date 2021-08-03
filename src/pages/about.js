@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 const AboutPage = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO title="About" image="https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg" />
     <section className="about">
       <div className="container">
         <div className="row my-4 justify-content-center">

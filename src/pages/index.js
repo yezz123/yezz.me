@@ -7,7 +7,7 @@ import Content from "../components/landing/content"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Home" image="https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg" />
     <Hero />
     <Content />
   </Layout>

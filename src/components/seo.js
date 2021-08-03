@@ -45,8 +45,13 @@ function SEO({ description, lang, meta, title }) {
           content: `Portfolio`,
         },
         {
+          name: "og:image",
+          content:
+            "https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg",
+        },
+        {
           name: `twitter:card`,
-          content: `https://avatars.githubusercontent.com/u/52716203?v=4`,
+          content: `https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg`,
         },
         {
           name: `twitter:creator`,
@@ -76,6 +81,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string,
 }
 
 export default SEO

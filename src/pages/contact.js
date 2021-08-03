@@ -7,7 +7,7 @@ import contactimg from "../images/contact.svg"
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact" />
+    <SEO title="Contact" image="https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg" />
     <section className="contact">
       <div className="container">
         <div className="row mt-4">
