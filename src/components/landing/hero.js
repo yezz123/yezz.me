@@ -1,5 +1,4 @@
 import React from "react"
-
 import Image from "../image"
 import Links from "../links"
 
@@ -21,7 +20,7 @@ export default function Hero() {
                 Experienced Backend developer, API Ninja OpenSource Developer
                 👨‍💻.
               </p>
-              <a href="https://bit.ly/3ejQLYz" target="_blank" rel="noreferrer">
+              <a href="https://bit.ly/3jnbVGJ" target="_blank" rel="noreferrer">
                 <button className="main-button btn btn-primary shadow-sm">
                   View Resume
                 </button>
@@ -62,7 +61,7 @@ export default function Hero() {
                     <a
                       href="https://bnademoverflow.com/"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       @BnademOverflow
                     </a>
@@ -71,7 +70,7 @@ export default function Hero() {
                     <a
                       href="https://github.com/yezz123"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       OpenSource
                     </a>{" "}
