@@ -6,7 +6,10 @@ import notfoundimg from "../images/notfound.svg"
 
 const Page404 = () => (
   <Layout>
-    <SEO title="Page Not Found" image="https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg" />
+    <SEO
+      title="Page Not Found"
+      image="https://c4.wallpaperflare.com/wallpaper/959/357/209/artwork-minimalism-rocket-wallpaper-preview.jpg"
+    />
     <section className="page404">
       <div className="container">
         <div className="row row-404 mt-4 float-right">
