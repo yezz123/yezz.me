@@ -4,7 +4,7 @@ import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { Component } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSun, faMoon } from "@fortawesome/free-solid-svg-icons"
+import { faMoon, faCloudSun } from "@fortawesome/free-solid-svg-icons"
 
 export default class Header extends Component {
   constructor(props) {
@@ -100,7 +100,7 @@ export default class Header extends Component {
                             {theme === "dark" ? (
                               <div>
                                 <FontAwesomeIcon
-                                  icon={faSun}
+                                  icon={faCloudSun}
                                   className="mr-2"
                                 />{" "}
                               </div>
