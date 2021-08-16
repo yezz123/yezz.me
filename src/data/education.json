@@ -10,5 +10,11 @@
     "field": "physical and chemical",
     "Year": "2016 - 2019",
     "Description": "During the 3 years of my studying in high school helped me learn a lot and gave me a correct way to build my career, as an IT Developer."
+  },
+  {
+    "schoolname": "Self-educated",
+    "field": "Web Development | Backend Development",
+    "Year": "2016 - Present",
+    "Description": "Due to the bad quality of the Moroccan educational system, I had to educate myself on the basics of Python, web development along the latest technology tools used to build web apps using Python Frameworks ex. Flask, Django, FastAPI."
   }
 ]
