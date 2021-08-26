@@ -22,7 +22,7 @@ export default function Hero() {
                 Experienced Backend developer, API Ninja OpenSource Developer
                 👨‍💻.
               </p>
-              <a href="https://bit.ly/3jnbVGJ" target="_blank" rel="noreferrer">
+              <a href="https://bit.ly/3yfxeQ4" target="_blank" rel="noreferrer">
                 <button className="main-button btn btn-primary shadow-sm">
                   View Resume
                 </button>
