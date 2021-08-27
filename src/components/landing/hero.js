@@ -1,8 +1,6 @@
 import React from "react"
 import Image from "../image"
 import Links from "../links"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {faRobot } from "@fortawesome/free-solid-svg-icons"
 
 export default function Hero() {
   return (
@@ -12,11 +10,6 @@ export default function Hero() {
           {/* + Hero section: Left side */}
           <div className="col-lg-5 my-auto">
             <div className="hero-introduction">
-              <h1>
-                <span className="wave" role="img" aria-label="bounce">
-                  <FontAwesomeIcon icon={faRobot} className="mr-2" />{" "}
-                </span>
-              </h1>
               <h1>Hi. I'm Yezz123</h1>
               <p>
                 Experienced Backend developer, API Ninja OpenSource Developer
