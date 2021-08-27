@@ -3,10 +3,7 @@ import { StaticQuery, graphql } from "gatsby"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faBriefcase,
   faCalendar,
-  faGraduationCap,
-  faUserGraduate,
   faCode,
   faUserNinja,
   faTag,
@@ -46,16 +43,6 @@ export default class Content extends Component {
                 }
               }
             }
-            allExperienceJson {
-              edges {
-                node {
-                  companyname
-                  stack
-                  year
-                  description
-                }
-              }
-            }
             allCommunityJson {
               edges {
                 node {
@@ -71,16 +58,6 @@ export default class Content extends Component {
                 node {
                   subject
                   link
-                  Description
-                }
-              }
-            }
-            allEducationJson {
-              edges {
-                node {
-                  schoolname
-                  field
-                  Year
                   Description
                 }
               }
@@ -154,41 +131,6 @@ export default class Content extends Component {
                 </div>
                 {/* - Technologies subsection */}
                 <br />
-                {/* + Job subsection */}
-                <div className="subsection">
-                  <h2>
-                    <span className="dot"></span>Experience{" "}
-                  </h2>
-                  {data.allExperienceJson.edges.map(({ node }, index) => (
-                    <div className="card">
-                      <div className="card-body" key={index}>
-                        <div className="card-title">
-                          <h3>{node.companyname}</h3>
-                          <h4>
-                            <FontAwesomeIcon
-                              icon={faBriefcase}
-                              className="mr-2"
-                            />{" "}
-                            {node.stack}
-                          </h4>
-                          <h4>
-                            <FontAwesomeIcon
-                              icon={faCalendar}
-                              className="mr-2"
-                            />{" "}
-                            {node.year}
-                          </h4>
-                        </div>
-
-                        <div className="card-text">
-                          <span>⭐</span> {node.description}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                {/* - Job subsection */}
-                <br />
                 {/* - Community subsection */}
                 <div className="subsection">
                   <h2>
@@ -214,7 +156,6 @@ export default class Content extends Component {
                             {node.Year}
                           </h4>
                         </div>
-
                         <div className="card-text">
                           <span>⭐</span> {node.Description}
                         </div>
@@ -222,39 +163,6 @@ export default class Content extends Component {
                     </div>
                   ))}
                 </div>
-                {/* + School subsection */}
-                <div className="subsection">
-                  <h2 className="mt-5">
-                    <span className="dot"></span>Education{" "}
-                  </h2>
-                  {data.allEducationJson.edges.map(({ node }, index) => (
-                    <div className="card">
-                      <div className="card-body" key={index}>
-                        <div className="card-title">
-                          <h3>{node.schoolname}</h3>
-                          <h4>
-                            <FontAwesomeIcon
-                              icon={faGraduationCap}
-                              className="mr-2"
-                            />
-                            {node.field}
-                          </h4>
-                          <h4>
-                            <FontAwesomeIcon
-                              icon={faUserGraduate}
-                              className="mr-2"
-                            />{" "}
-                            {node.Year}
-                          </h4>
-                        </div>
-
-                        <div className="card-text">{node.Description}</div>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-                {/* - School subsection */}
-
                 {/* + Projects subsection */}
                 <div className="subsection">
                   <h2 className="mt-5">
