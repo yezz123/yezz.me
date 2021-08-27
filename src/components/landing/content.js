@@ -47,6 +47,7 @@ export default class Content extends Component {
               edges {
                 node {
                   communityName
+                  communityLink
                   Stack
                   Year
                   Description
@@ -140,7 +141,13 @@ export default class Content extends Component {
                     <div className="card">
                       <div className="card-body" key={index}>
                         <div className="card-title">
-                          <h3>{node.communityName}</h3>
+                          <a
+                            href={node.communityLink}
+                            target="_blank"
+                            rel="noreferrer"
+                          >
+                            <h3>{node.communityName}</h3>
+                          </a>
                           <h4>
                             <FontAwesomeIcon
                               icon={faUserNinja}
