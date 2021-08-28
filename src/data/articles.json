@@ -1,5 +1,11 @@
 [
   {
+    "article": "The Art Of Open Source Development",
+    "language": "Opensource, Lifestyle, Passion",
+    "description": "Open source is a term that originally referred to open source software (OSS). Open source software is code that is designed to be publicly...",
+    "link": "https://blog.yezz.me/blog/The-Art-Of-Open-Source-Software"
+  },
+  {
     "article": "What the Hell is WSGI Benchmark?",
     "language": "WSGI, Python, BenchMark",
     "description": "WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications...",
@@ -10,11 +16,5 @@
     "language": "API, Python, FastAPI",
     "description": "As Python grows in popularity, the variety of high-quality frameworks available to developers has blossomed. In addition to steadfast options like Django and Flask...",
     "link": "https://blog.yezz.me/blog/Build-and-Secure-an-API-in-Python-with-FastAPI"
-  },
-  {
-    "article": "Story of Athena",
-    "language": "Lab, Python, Coding",
-    "description": "Behind lines , Why I choose this name cause it look more dramatic for the project.I am inspired a lot from Athena for example, how she was a great woman with a great power...",
-    "link": "https://blog.yezz.me/blog/Story-of-Athena"
   }
 ]
