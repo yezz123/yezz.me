@@ -1,5 +1,11 @@
 [
   {
+    "project": "AuthenticationX",
+    "language": "Python, FastAPI, Pydantic",
+    "description": "Ready to use and customizable Authentications and Oauth2 management for FastAPI ⚡",
+    "link": "https://yezz123.github.io/AuthX/"
+  },
+  {
     "project": "Athena",
     "language": "Python, Flask",
     "description": "is a web application developed in Flask for testing your skills as a Hacker, Coder and Warrior.",
@@ -18,10 +24,10 @@
     "link": "https://github.com/GDGSNF/My-Business"
   },
   {
-    "project": "Oauth2",
-    "language": "Python, FastAPI, Json",
-    "description": "PlayGround with JWTs used as OAuth 2.0 Bearer Tokens to encode all relevant parts of an access token into the access token itself instead of storing them in a database.",
-    "link": "https://github.com/yezz123/Oauth2"
+    "project": "FastQL",
+    "language": "Python, FastAPI, GraphQL",
+    "description": "Generate a FullStack playground using FastAPI and GraphQL and Ariadne 🚀.",
+    "link": "https://github.com/obytes/fastql"
   },
   {
     "project": "FRDP",

@@ -213,6 +213,8 @@ export default class Content extends Component {
                     ))}
                   </div>
                 </div>
+
+                {/* + Talk subsection */}
                 <div className="subsection">
                   <h2>
                     <span className="dot"></span>Talks{" "}
@@ -234,7 +236,6 @@ export default class Content extends Component {
                   ))}
                 </div>
               </div>
-              {/* - Projects subsection */}
             </section>
           </>
         )}
