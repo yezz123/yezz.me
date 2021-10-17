@@ -12,7 +12,7 @@ export default function Hero() {
             <div className="hero-introduction">
               <h1>Hi. I'm Yezz123</h1>
               <p>
-                Experienced Backend developer, API Ninja OpenSource Developer
+                Experienced Backend developer, API &amp; OpenSource Developer
                 👨‍💻.
               </p>
               <a href="https://bit.ly/3yfxeQ4" target="_blank" rel="noreferrer">
