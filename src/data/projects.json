@@ -3,23 +3,23 @@
     "project": "AuthenticationX",
     "language": "Python, FastAPI, Pydantic",
     "description": "Ready to use and customizable Authentications and Oauth2 management for FastAPI ⚡",
-    "link": "https://yezz123.github.io/AuthX/"
+    "link": "https://authx.yezz.codes"
   },
   {
     "project": "Athena",
-    "language": "Python, Flask",
+    "language": "Python, Flask, SQLite",
     "description": "is a web application developed in Flask for testing your skills as a Hacker, Coder and Warrior.",
     "link": "https://github.com/yezz123/Athena"
   },
   {
     "project": "DogeAPI",
-    "language": "Python, FastAPI",
+    "language": "Python, FastAPI, Docker",
     "description": "API with high performance to create a simple blog and Crud with OAuth2PasswordBearer & JWT.",
     "link": "https://github.com/yezz123/DogeAPI"
   },
   {
     "project": "My Business",
-    "language": "Python, Django",
+    "language": "Python, Django, LinodeAPI",
     "description": "is a business management tool featuring accounts, invoices, partners, projects, and server.",
     "link": "https://github.com/GDGSNF/My-Business"
   },
