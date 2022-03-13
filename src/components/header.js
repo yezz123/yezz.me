@@ -71,7 +71,6 @@ export default class Header extends Component {
                       <Link
                         className="nav-link"
                         to="https://blog.yezz.me/"
-                        target="_blank"
                       >
                         blog
                       </Link>

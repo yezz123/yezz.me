@@ -20,6 +20,11 @@ export default function Hero() {
                   View Resume
                 </button>
               </a>
+              <a href="https://blog.yezz.me/blog/Tech-and-Tools-I-Use" target="_blank" rel="noreferrer">
+                <button className="main-button btn btn-primary shadow-sm">
+                  /Uses
+                </button>
+              </a>
             </div>
           </div>
           {/* - Hero section: Left side */}

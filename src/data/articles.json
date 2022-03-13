@@ -1,5 +1,11 @@
 [
   {
+    "article": "Integrate Pydantic with Django and Django REST Framework",
+    "language": "Django, Python, Pydantic",
+    "description": "Pydantic is a Pythonic data validation library that makes it easy to create data models and validate data.",
+    "link": "https://blog.yezz.me/blog/Integrate-Pydantic-with-Django-and-Django-REST-Framework"
+  },
+  {
     "article": "Getting started with GraphQL in Python with FastAPI and Ariadne",
     "language": "GraphQL, Python, FastAPI",
     "description": "Generate a FullStack playground using FastAPI, GraphQL and Ariadne....",
@@ -10,11 +16,5 @@
     "language": "Opensource, Lifestyle, Passion",
     "description": "Open source is a term that originally referred to open source software (OSS). Open source software is code that is designed to be publicly...",
     "link": "https://blog.yezz.me/blog/The-Art-Of-Open-Source-Software"
-  },
-  {
-    "article": "What the Hell is WSGI Benchmark?",
-    "language": "WSGI, Python, BenchMark",
-    "description": "WSGI is the Web Server Gateway Interface. It is a specification that describes how a web server communicates with web applications...",
-    "link": "https://blog.yezz.me/blog/What-the-hell-is-WSGI"
   }
 ]
