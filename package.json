@@ -15,8 +15,8 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.0",
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
-    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/free-brands-svg-icons": "^6.1.0",
+    "@fortawesome/free-solid-svg-icons": "^6.1.0",
     "@fortawesome/react-fontawesome": "^0.1.16",
     "bootstrap": "^4.5.3",
     "gatsby": "^2.24.80",
@@ -36,12 +36,12 @@
     "react": "^16.12.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
-    "react-scroll": "^1.8.4",
+    "react-scroll": "^1.8.6",
     "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
     "eslint-config-react-app": "^7.0.0",
-    "prettier": "2.5.1"
+    "prettier": "2.6.0"
   },
   "keywords": [
     "gatsby",
