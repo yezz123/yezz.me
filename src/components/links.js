@@ -13,7 +13,7 @@ export default function Links() {
     <ul className="list-group list-group-horizontal">
       <li className="list-group-item">
         <a
-          href="mailto:yasserth19@gmail.com"
+          href="mailto:hello@yezz.me"
           target="_blank"
           rel="noreferrer"
           alt="email link"
