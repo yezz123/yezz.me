@@ -1,5 +1,11 @@
 [
   {
+    "article": "Decorator-and-API-design",
+    "language": "Decorators, Python",
+    "description": "A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure.",
+    "link": "https://blog.yezz.me/blog/Decorator-and-API-design"
+  },
+  {
     "article": "Integrate Pydantic with Django and Django REST Framework",
     "language": "Django, Python, Pydantic",
     "description": "Pydantic is a Pythonic data validation library that makes it easy to create data models and validate data.",
@@ -10,11 +16,5 @@
     "language": "GraphQL, Python, FastAPI",
     "description": "Generate a FullStack playground using FastAPI, GraphQL and Ariadne....",
     "link": "https://www.obytes.com/blog/getting-started-with-graphql-in-python-with-fastapi-and-ariadne"
-  },
-  {
-    "article": "The Art Of Open Source Development",
-    "language": "Opensource, Lifestyle, Passion",
-    "description": "Open source is a term that originally referred to open source software (OSS). Open source software is code that is designed to be publicly...",
-    "link": "https://blog.yezz.me/blog/The-Art-Of-Open-Source-Software"
   }
 ]
