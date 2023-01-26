@@ -6,22 +6,22 @@
     "link": "https://authx.yezz.me"
   },
   {
-    "project": "Athena",
-    "language": "Python, Flask, SQLite",
-    "description": "is a web application developed in Flask for testing your skills as a Hacker, Coder and Warrior.",
-    "link": "https://github.com/yezz123/Athena"
+    "project": "Ormdantic",
+    "language": "Python, SQLAlchemy, Pydantic",
+    "description": "Asynchronous ORM that uses pydantic models to represent database tables",
+    "link": "https://ormdantic.yezz.me/"
   },
   {
-    "project": "DogeAPI",
-    "language": "Python, FastAPI, Docker",
-    "description": "API with high performance to create a simple blog and Crud with OAuth2PasswordBearer & JWT.",
-    "link": "https://github.com/yezz123/DogeAPI"
+    "project": "fastapi-class",
+    "language": "Python, FastAPI, Decorators",
+    "description": "Classes and Decorators to use FastAPI with Class based routing.",
+    "link": "https://github.com/yezz123/fastapi-class"
   },
   {
-    "project": "My Business",
-    "language": "Python, Django, LinodeAPI",
-    "description": "is a business management tool featuring accounts, invoices, partners, projects, and server.",
-    "link": "https://github.com/GDGSNF/My-Business"
+    "project": "fastapi-tag",
+    "language": "Python, FastAPI, Metadata",
+    "description": "Package could be added to your FastAPI Project to enhance the metadata of your Project.",
+    "link": "https://github.com/yezz123/fastapi-tag"
   },
   {
     "project": "FastQL",
@@ -30,15 +30,9 @@
     "link": "https://github.com/obytes/fastql"
   },
   {
-    "project": "FRDP",
-    "language": "Python, FastAPI, Docker",
-    "description": "Boilerplate code for quick docker implementation of REST API with JWT Authentication using FastAPI, PostgreSQL and PgAdmin",
-    "link": "https://github.com/BnademOverflow/FRDP"
-  },
-  {
-    "project": "Nectus",
-    "language": "Python, Flask, ReactJs",
-    "description": "A boilerplate Flask API for a Fullstack Project with some additional packages and configuration prebuilt.",
-    "link": "https://github.com/yezz123/Nectus"
+    "project": "My Business",
+    "language": "Python, Django, LinodeAPI",
+    "description": "is a business management tool featuring accounts, invoices, partners, projects, and server.",
+    "link": "https://github.com/GDGSNF/My-Business"
   }
 ]

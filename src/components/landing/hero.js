@@ -12,14 +12,8 @@ export default function Hero() {
             <div className="hero-introduction">
               <h1>Hi. I'm Yezz123</h1>
               <p>
-                Experienced Backend developer, API &amp; OpenSource Developer
-                👨‍💻.
+                Software Engineer &amp; Business Owner 👨‍💻.
               </p>
-              <a href="https://bit.ly/3yfxeQ4" target="_blank" rel="noreferrer">
-                <button className="main-button btn btn-primary shadow-sm">
-                  View Resume
-                </button>
-              </a>
               <a href="https://blog.yezz.me/blog/Tech-and-Tools-I-Use" target="_blank" rel="noreferrer">
                 <button className="main-button btn btn-primary shadow-sm">
                   /Uses
@@ -55,15 +49,15 @@ export default function Hero() {
                     <br />
                   </h4>
                   <p className="card-text">
-                    Backend Developer,
+                    Software Engineer,
                     <br />
-                    Creator of{" "}
+                    Owner of{" "}
                     <a
-                      href="https://bnademoverflow.com/"
+                      href="https://yezz.me"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      @BnademOverflow
+                      @Yezz LLC.
                     </a>
                     .
                     <br />I love{" "}
