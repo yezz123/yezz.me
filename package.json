@@ -40,7 +40,7 @@
     "typeface-montserrat": "^1.1.13"
   },
   "devDependencies": {
-    "eslint-config-react-app": "^7.0.0",
+    "eslint-config-react-app": "^7.0.1",
     "prettier": "2.6.0"
   },
   "keywords": [
